@@ -1,0 +1,51 @@
+.sa{
+    background: tomato;
+    margin-left: 10px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap:44px;
+    color:#424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin-left: 135px;
+    margin-right: 127px;
+}
+
+nav li{
+    list-style: none;
+}
+.header-title{
+    display: flex;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+.header{
+    display: flex;
+    gap:20px;
+}
+
+@media  screen and (max-width:600px) {
+    .head{
+        display: block;
+        text-align: center;
+    }
+    .nav{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
