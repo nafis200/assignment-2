@@ -371,4 +371,20 @@ header, main{
     .card-12{
         margin-left: -85px;
     }
+    .body-5,.body-6,.body-7{
+        width: 409px;
+        height: 288px;
+        margin-left: -63px;
+    }
+    .card-a,.card-c{
+        margin-left: 7px;
+        width: 324px;
+        height: 180px;
+    }
+    .card-b{
+        margin-left: 20px;
+        width: 324px;
+        height: 180px;
+        margin-left: 7px;
+    }
 }
