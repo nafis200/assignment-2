@@ -73,24 +73,30 @@ header, main{
 }
 .header-button{
     text-align: center;
-
 }
 
 .in{
     width: 174px;
-    height: 52px;
+    height: 69px;
     border-radius: 8px;
-    background: #FFF;
     padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
+    background: #FFF;
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
    
 }
+.in1{
+    height: 68px;
+    width: 150px;
+    text-align: center;
+}
 
 .btn{
     width: 174px;
-    height: 52px;
+    height: 69px;
     border-radius: 8px;
     background: #FF5400;
     color: white;
@@ -110,6 +116,22 @@ header, main{
 
 }
 
+.body-3-grid-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+    border-radius: 16px;
+}
+
+.inn{
+    text-align: center;
+    display: inline-flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding: 30px;
+    gap: 24px;
+}
+
 /* media query */
 @media  screen and (max-width:600px) {
     .head{
@@ -126,6 +148,7 @@ header, main{
         padding-top: 0px;
     }
     .header-1-title{
+        margin-bottom: 5px;
         margin-top: 300px;
         padding-top: 40px;
         font-size: 30px;
@@ -146,6 +169,12 @@ header, main{
         text-align: center;
         padding-top: 10px;
         
+    }
+    .in1{
+        width:126px;
+        height:25px;
+        margin-left: 10px;
+        padding:13px;
     }
     .btn{
         width: 96px;
