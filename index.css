@@ -161,6 +161,41 @@ header, main{
     font-weight: 400;
     margin-left: 250px;
 }
+.card{
+    width: 443px;
+    height: 160px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 60px;
+}
+
+.card-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+.card-des{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.booking{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#card-1{
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.card-12{
+    margin-left: 250px;
+}
 
 /* media query */
 @media  screen and (max-width:600px){
@@ -248,7 +283,7 @@ header, main{
         gap: 10px;
         
     }
-    .body-3-grid-1{
+    .body-3-grid-1, .booking{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         
@@ -260,5 +295,16 @@ header, main{
     .body-3-1-title{
         margin-left: -110px;
         font-size: px;
+    }
+    .card{
+        width: 335px;
+        margin-top: 40px;
+        padding: 9px;
+    }
+    .booking{
+        margin-left: -60px;
+    }
+    .card-12{
+        margin-left: -85px;
     }
 }
