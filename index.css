@@ -305,7 +305,24 @@ header, main{
     display: flex;
     justify-content: space-between;
 }
-
+.foot{
+    margin-left: 680px;
+}
+.f5{
+    text-align: center;
+    margin-left: 80px;
+}
+.foot2{
+    margin-left: 720px;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px;
+}
+.last{
+    text-align: center;
+    margin-left: 80px;
+}
 /* media query */
 @media  screen and (max-width:600px){
     .head{
