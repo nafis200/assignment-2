@@ -273,6 +273,38 @@ header, main{
     height:350px;
     width: 450px;
 }
+.check, #btn-3{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05); 
+    padding-left: 10px;
+}
+#btn-3{
+   padding-left: 20px;
+   width: 410px;
+   background: tomato;
+}
+.img-5{
+    margin-top: 10px;
+}
+.pos{
+    background: tomato;
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    position: relative;
+    bottom: 220px;
+    left: 320px;
+    transform: rotate(-30deg);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* media query */
 @media  screen and (max-width:600px){
