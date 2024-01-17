@@ -259,7 +259,20 @@ header, main{
     position: absolute;
     top:30px;
 }
-
+#bt-1{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.abcc{
+    height:350px;
+    width: 450px;
+}
 
 /* media query */
 @media  screen and (max-width:600px){
@@ -352,11 +365,11 @@ header, main{
         grid-template-columns: repeat(1,1fr);
         
     }
-    .body-3-1-des{
+    .body-3-1-des,.video-des{
         margin-left:-62px;
         width: 335px;
     }
-    .body-3-1-title{
+    .body-3-1-title,.video-title{
         margin-left: -110px;
         font-size: px;
     }
@@ -386,5 +399,13 @@ header, main{
         width: 324px;
         height: 180px;
         margin-left: 7px;
+    }
+    .btn{
+        width:97px;
+        height: 48px;
+    }
+    #bt-1{
+        margin-left: 67px;
+        margin-top: 6px;
     }
 }
