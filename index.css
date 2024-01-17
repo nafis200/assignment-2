@@ -513,4 +513,11 @@ footer{
     .foot2{
         margin-left: 245px;
     }
+    .extra{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .p-2,.p-3{
+        margin-top: 20px;
+    }
 }
