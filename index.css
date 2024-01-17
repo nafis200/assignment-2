@@ -440,4 +440,38 @@ header, main{
         margin-left: 67px;
         margin-top: 6px;
     }
+    .video{
+        flex-direction: column;
+    }
+    .video-title{
+        width: 268px;
+        margin-left: -28px;
+    }
+    .img{
+        margin-left: -40px;
+        width: 366px;
+        height: 301px;
+    }
+    .pos{
+        width: 225px;
+        bottom:191px;
+        left: 62px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .check, #btn-3{
+        width: 221px;
+        height: 52px;
+    }
+    .abcc{
+        height: 276px;
+        width: 339px;
+        margin-left: -75px;
+    }
+    .img-6{
+        margin-left:-40px;
+        width: 366px;
+        height: 301px;
+    }
 }
